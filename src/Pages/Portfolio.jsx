@@ -116,6 +116,21 @@ const Portfolio = () => {
                 </a>
               </div>
             </div>
+
+            <div className="work">
+            <h3>TODO List App</h3>
+              <div className="layer">
+                <h3>TODO List App</h3>
+                <p>A Fun todo list app that renders your todo's</p>
+                <a href="https://github.com/Johnson2017-stack/todo-list-app.git">
+                  <i class="fa-sharp fa-solid fa-code-branch"></i>
+                </a>
+                <a href="https://johnson2017-stack.github.io/todo-list-app/public/">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </a>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
