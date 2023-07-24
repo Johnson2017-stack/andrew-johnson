@@ -4,7 +4,8 @@ import "../styles/styles.css"
 const Home = () => {
   return (
     <>
-        <h1>Home</h1>
+        <h3>Software Developer</h3>
+        <h1>Hi, I'm <p>Andrew Johnson</p> From Wahsington State</h1>
     </>
   )
 }
