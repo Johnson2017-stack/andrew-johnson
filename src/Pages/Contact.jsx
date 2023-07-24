@@ -72,7 +72,7 @@ const Contact = () => {
           <a href="https://johnson2017-stack.github.io/andrew-johnson-portfolio/">
             <i class="fa-brands fa-square-github"></i>
           </a>
-          <a href="https://github.com/Johnson2017-stack/andrew-johnson-portfolio.git">
+          <a href="https://github.com/Johnson2017-stack/andrew-johnson.git">
             <i class="fa-sharp fa-solid fa-code-branch"></i>
           </a>
         </div>
