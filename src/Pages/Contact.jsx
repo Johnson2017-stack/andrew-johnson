@@ -1,4 +1,6 @@
 import React from "react";
+import ResumePdf from "../images/resume-andrew-johnson.pdf"
+
 
 const Contact = () => {
   return (
@@ -16,12 +18,16 @@ const Contact = () => {
         </div>
 
         <a
-          href="src/images/Tech-Resume-2.docx copy.zip"
-          download
+          href={ResumePdf}
+          download="resume-andrew-johnson.pdf"
+          target="_blank"
+          rel="noreferrer"
           class="btn btn2"
         >
           Download CV
+          
         </a>
+
 
         <div className="contact-right">
           <form className="submit-to-google-sheet">

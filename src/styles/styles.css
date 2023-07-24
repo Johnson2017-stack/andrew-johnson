@@ -12,7 +12,22 @@ p {
   color: aliceblue;
 }
 /*Home*/
-
+#heading {
+  margin-top: 225px;
+  color: aliceblue;
+}
+.heading{
+  margin-top: 25px;
+  font-weight: 600;
+  color: aliceblue;
+}
+.heading span {
+  color: #ff004f;
+}
+#IMG {
+  width: 450px;
+  height: 600px;
+}
 
 /*About*/
 
