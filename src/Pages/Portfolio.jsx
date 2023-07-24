@@ -9,10 +9,7 @@ const Portfolio = () => {
 
           <div className="work-list">
             <div className="work">
-              <img
-                src="src/images/work-1.jpg"
-                al="by Markus Spiske on unsplash"
-              />
+             <h3>Tik-Tac-Toe</h3>
               <div className="layer">
                 <h3>Tik-Tak-Toe </h3>
                 <p>
@@ -29,10 +26,7 @@ const Portfolio = () => {
             </div>
 
             <div className="work">
-              <img
-                src="src/images/work-2.jpg"
-                alt="by Marvin Meyer on unsplash"
-              />
+            <h3>First Portfolio</h3>
               <div className="layer">
                 <h3>First Portfolio </h3>
                 <p>This is my first Portfolio I built with HTML</p>
@@ -46,10 +40,7 @@ const Portfolio = () => {
             </div>
 
             <div className="work">
-              <img
-                src="src/images/work-3.jpg"
-                alt="by Gabriel Beaudry on unsplash"
-              />
+            <h3>MERN Front End</h3>
               <div className="layer">
                 <h3>MERN Front End</h3>
                 <p>This was a Front end Exercise I did in class for MongoDB</p>
@@ -63,10 +54,7 @@ const Portfolio = () => {
             </div>
 
             <div className="work">
-              <img
-                src="src/images/work-4.jpg"
-                alt="By Nate Grant on unsplash"
-              />
+            <h3>MERN Back End</h3>
               <div className="layer">
                 <h3>MERN Back End</h3>
                 <p>This was a Backend Exercise I did in class for MongoDB</p>
@@ -77,10 +65,7 @@ const Portfolio = () => {
             </div>
 
             <div className="work">
-              <img
-                src="src/images/work-5.jpg"
-                alt="By Rami Al-Zayat on unsplash"
-              />
+            <h3>Contact App</h3>
               <div className="layer">
                 <h3>Contact App</h3>
                 <p>I built this App with vite and react</p>
@@ -94,10 +79,7 @@ const Portfolio = () => {
             </div>
 
             <div className="work">
-              <img
-                src="src/images/work-6.jpg"
-                alt="By Samuel Regan-Asante on unsplash"
-              />
+            <h3>Movie Search</h3>
               <div className="layer">
                 <h3>Movie Search App</h3>
                 <p>Fun movie search App with not much css</p>
@@ -111,7 +93,7 @@ const Portfolio = () => {
             </div>
 
             <div className="work">
-              <img src="src/images/work-7.jpg" alt="By NASA on unsplash" />
+            <h3>Weather App</h3>
               <div className="layer">
                 <h3>Weather App</h3>
                 <p>A Fun weather app I built referencing a Api</p>
@@ -125,10 +107,7 @@ const Portfolio = () => {
             </div>
 
             <div className="work">
-              <img
-                src="src/images/work-8.jpg"
-                alt="By History in HD on unsplash"
-              />
+            <h3>Nasa Apod</h3>
               <div className="layer">
                 <h3>NASA APOD</h3>
                 <p>A App I built referencing the APOD API on nasa</p>
