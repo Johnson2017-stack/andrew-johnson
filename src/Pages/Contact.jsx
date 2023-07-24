@@ -69,7 +69,7 @@ const Contact = () => {
           <a href="https://www.linkedin.com/in/andrew-johnson-24aaa223a/">
             <i class="fa-brands fa-linkedin"></i>
           </a>
-          <a href="https://johnson2017-stack.github.io/andrew-johnson-portfolio/">
+          <a href="https://andrew-johnson-react-portfolio.netlify.app/">
             <i class="fa-brands fa-square-github"></i>
           </a>
           <a href="https://github.com/Johnson2017-stack/andrew-johnson.git">
