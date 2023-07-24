@@ -3,9 +3,9 @@ import "../styles/styles.css"
 
 const Home = () => {
   return (
-    <div className="home">Home
+    <>
         <h1>Home</h1>
-    </div>
+    </>
   )
 }
 

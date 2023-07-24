@@ -3,10 +3,29 @@
 }
 body{
     margin: 0;
+    background-color: black;
 }
 h1 {
     color: aliceblue;
 }
+p{
+    color: aliceblue;
+}
+#contact{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+#biography {
+    color: aliceblue;
+}
+#skills {
+    color: aliceblue;
+}
+
+/*Nav*/
 .nav {
     background-color: rgba(43, 43, 43, 0.833);
     color: aliceblue;
@@ -40,4 +59,68 @@ h1 {
     color: rgba(240, 8, 8, 0.798);
     }
 
-  
+
+    /* Contact */
+
+    .btn.btn2{
+        margin-top: 3rem;
+        width: 20%;
+        display: inline-block;
+        background:#ff004f;
+    }
+    .contact-left{
+        flex-basis: 35%;
+    }
+    .contact-right{
+        flex-basis: 60%;
+    }
+    .contact-left p{
+        margin-top: 30px;
+    }
+    .contact-left p i{
+        color: #ff004f;
+        margin-right: 25px;
+        font-size: 35px;
+        
+    }
+
+    .social-icons{
+        margin-top: 3rem;
+    }
+    .social-icons a{
+        text-decoration: none;
+        font-size: 30px;
+        margin-right: 15px;
+        color: #ababab;
+        display: inline-block;
+        transition: transform(0.5s);
+    }
+    .social-icons a:hover{
+        color: #ff004f;
+        transform: translateY(-5px);
+    }
+   
+    .contact-right form{
+        width: 100%;
+        margin-top: 3rem;
+    }
+
+    form input, form textarea{
+        width: 100%;
+        border: 0;
+        outline: none;
+        padding: 15px;
+        margin: 15px 0;
+        color: #fff;
+        font-size: 18px;
+        border-radius: 6px;
+    }
+
+    form .btn2{
+        color: #000000;
+        padding: 14px 60px;
+        font-size: 18px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+

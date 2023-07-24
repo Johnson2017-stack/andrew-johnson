@@ -1,36 +1,28 @@
 
-import './App.css';
 import Nav from './components/Nav';
 import Home from './Pages/Home';
-import About from "./Pages/About";
+import About from './Pages/About'
 import Porfolio from "./Pages/Portfolio";
 import Contact from "./Pages/Contact";
-
+import  {Route, Routes} from 'react-router-dom'
 
 
 function App() {
-  let component
-  switch (window.location.pathname){
-    case "/":
-      component = <Home />
-      break
-    case "/about":
-      component = <About/>
-      break
-    case "/portfolio":
-      component = <Porfolio />
-      break
-    case "/contact":
-      component = <Contact />
-      break
-  }
   return (
-    <div className="App">
-      <>
+    <>
       <Nav />
+      <div className="container">
+        <Routes>
+          <Route path="/home" element={<Home />}/>
+          <Route path="/about" element={<About />}/>
+          <Route path="/portfolio" element={<Porfolio />}/>
+          <Route path="/contact" element={<Contact />}/>
+        </Routes>
+      </div>
+
       </>
    
-    </div>
+    
   );
 }
 
