@@ -30,7 +30,7 @@ const Contact = () => {
 
 
         <div className="contact-right">
-          <form className="submit-to-google-sheet">
+          <form className="submit-to-google-sheet" action="https://formspree.io/f/xzblzyjl" method="POST">
             <div className="input-group input-group-sm mb-3">
               <input
                 name="Name"
