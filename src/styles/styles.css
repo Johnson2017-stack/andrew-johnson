@@ -11,13 +11,11 @@ h1 {
 p {
   color: aliceblue;
 }
-#contact {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  padding: 1rem;
-  margin-top: 2rem;
-}
+/*Home*/
+
+
+/*About*/
+
 #biography {
     font-weight: 300;
   color: aliceblue;
@@ -156,6 +154,14 @@ color: aliceblue;
 
 
 /* Contact */
+
+#contact {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 1rem;
+  margin-top: 2rem;
+}
 
 .btn.btn2 {
   margin-top: 3rem;

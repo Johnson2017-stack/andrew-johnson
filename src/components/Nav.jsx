@@ -9,7 +9,7 @@ const Nav = () => {
       Johnson .
       </Link>
     <ul>
-      <CustomLink to="/home">Home</CustomLink>
+      <CustomLink to="/">Home</CustomLink>
       <CustomLink to="/about">About</CustomLink>
       <CustomLink to="/portfolio">Portfolio</CustomLink>
       <CustomLink to="/contact">Contact</CustomLink>
