@@ -27,6 +27,7 @@ p {
 #IMG {
   width: 450px;
   height: 600px;
+  border-radius: 5%;
 }
 
 /*About*/
