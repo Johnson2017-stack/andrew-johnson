@@ -6,7 +6,7 @@ body {
   background-color: black;
 }
 h1 {
-  color: aliceblue;
+  color: #ff004f;
 }
 p {
   color: aliceblue;
@@ -183,7 +183,7 @@ color: aliceblue;
 }
 .social-icons a {
   text-decoration: none;
-  font-size: 30px;
+  font-size: 75px;
   margin-right: 15px;
   color: #ababab;
   display: inline-block;

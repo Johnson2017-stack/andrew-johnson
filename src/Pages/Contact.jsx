@@ -69,9 +69,6 @@ const Contact = () => {
           <a href="https://github.com/Johnson2017-stack/andrew-johnson-portfolio.git">
             <i class="fa-sharp fa-solid fa-code-branch"></i>
           </a>
-          <a href="https://www.facebook.com/profile.php?id=100005210734740">
-            <i class="fa-brands fa-facebook"></i>
-          </a>
         </div>
       </div>
     </>
