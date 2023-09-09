@@ -131,6 +131,23 @@ const Portfolio = () => {
               </div>
             </div>
 
+                 <div className="work">
+            <h3>E-commerce App</h3>
+              <div className="layer">
+                <h3>E-commerce App</h3>
+                <p>A fully functional E-commerce app i built using react</p>
+                <a href="https://github.com/Johnson2017-stack/e-comm-client.git">Client
+                  <i class="fa-sharp fa-solid fa-code-branch"></i>
+                </a>
+                <a href="https://github.com/Johnson2017-stack/e-comm-sever.git">Server
+                  <i class="fa-sharp fa-solid fa-code-branch"></i>
+                </a>
+                <a href="https://johnsons-motorsports.netlify.app/">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </a>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
